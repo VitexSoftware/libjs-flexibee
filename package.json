@@ -1,0 +1,26 @@
+{
+  "name": "libjs-flexibee",
+  "version": "0.0.1",
+  "description": "JavaScript Based Library for easy interaction with czech accounting system FlexiBee",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitexSoftware/libjs-flexibee.git"
+  },
+  "keywords": [
+    "FlexiBee",
+    "RestAPI"
+  ],
+  "author": "Vítězslav Dvořák <info@vitexsoftware.cz> (https://vitexsoftware.cz/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VitexSoftware/libjs-flexibee/issues"
+  },
+  "homepage": "https://github.com/VitexSoftware/libjs-flexibee#readme",
+  "dependencies": {
+    "url": "^0.11.0"
+  }
+}
