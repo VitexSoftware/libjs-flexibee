@@ -1,10 +1,13 @@
 
 var configuration = require("./config.json");
-var flexibee = require('../src/index.js');
+var flexibee = require('../src/FlexiBeeRO.js');
 flexibee.configure(configuration);
 
-flexibee.printMsg();
+flexibee.printBanner();
 
 flexibee.getContent('/status.json')
-  .then((html) => console.log(html))
-  .catch((err) => console.error(err));
+        .then((html) => console.log(html))
+        .catch((err) => console.error(err));
+
+
+console.log(flexibee);

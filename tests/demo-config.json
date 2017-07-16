@@ -1,0 +1,7 @@
+{
+    "FLEXIBEE_URL": "https://demo.flexibee.eu",
+    "FLEXIBEE_LOGIN": "winstrom",
+    "FLEXIBEE_PASSWORD": "winstrom",
+    "FLEXIBEE_COMPANY": "demo",
+    "FLEXIBEE_UNSAFE": "true"
+}

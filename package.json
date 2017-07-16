@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "JavaScript Based Library for easy interaction with czech accounting system FlexiBee",
   "main": "src/index.js",
-  "scripts": {
+  "scripts": {"start":"node tests\/test.js",
     "test": "node tests/test.js"
   },
   "repository": {
